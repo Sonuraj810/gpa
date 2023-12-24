@@ -116,7 +116,7 @@ body{
     padding:5px 0;
 }
 #farea1{
-    height:1px;
+    padding:0.5px 0;
     width:100%;
     background:linear-gradient(to left,transparent, white, transparent );
     margin:20px 0;
