@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    background:rgb(255, 255, 255);
 }
 .toparea{
     background:#BD5954;
@@ -45,57 +46,48 @@ body{
     color:white;
     font-weight: bold;
 }
-.parea{
-    background:white ;
-    text-align:center;
-    padding:48px 0;
-}
-.fullwidth{
-    width:100%;
-}
-.parea p{
-    text-align:justify;
-}
-.parea p:last-child{
-    text-align:right;
-}
-.carea{
-    padding:50px 0;
-    text-align:center;
-    background-image:url('library.jpg');
-}
-.box{
+.farea{
+    text-align: center;
     padding:20px 0;
-    margin:15px 0px;
-    background:rgb(255, 255, 255);
+}
+.midarea h4{
+    padding:25px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color:#B65651;
+    text-align: center;
+}
+.hrarea{
+    height:0.5px ;
+    margin-top:49px ;
+    background:#B65651;
+}
+.imagearea{
+    text-align: center;
+}
+.imagearea img{
+    height:250px;
+    width:250px;
+    border:solid 1px black;
+}
+.imagearea h6{
+    font:bold 18px arial ;
+    padding-top:10px;
+}
+.imagearea h5{
+    font:oblique 16px arial ;
+    padding-top:10px;
+    font-weight: bold;
+    line-height: 5px;
+}
+.line{
+    padding:0.5px 0;
     width:100%;
-    overflow:hidden;
+    background:linear-gradient(to left,transparent, rgb(0, 0, 0), transparent );
+    margin:20px 0;
 }
-.box img{
-    margin:20px 0px;
-    height:150px;
-    transition:all 2s;
-    border-radius:50%;
-}
-.box:hover img{
-    transform:rotate(360deg);
-}
-.carea p{
-    background:white;
-    padding:20px 0;
-    font-size:18px;
-}
-.carea a:link,.carea a:visited{
-    color:#794027;
-    text-decoration:none;
-}
-.alumni{
-    background-image:url('https://www.technojobs.co.uk/info/sites/www.technojobs.co.uk/files/styles/article_image_large/public/graduation%201.1.png?itok=Ql873XV6');
-    padding:150px 0;
-    background-size:cover;
-    text-align:center;
-}
-.alumni img{
+.barea{
+    padding:30px 0 30px 0;
 }
 .foot{
     background:#161616;
@@ -132,7 +124,7 @@ body{
     padding:5px 0;
 }
 #farea1{
-    padding:1px 0;
+    padding:0.5px 0;
     width:100%;
     background:linear-gradient(to left,transparent, white, transparent );
     margin:20px 0;

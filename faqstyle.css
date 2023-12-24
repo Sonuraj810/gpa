@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    background:rgb(255, 255, 255);
 }
 .toparea{
     background:#BD5954;
@@ -45,57 +46,36 @@ body{
     color:white;
     font-weight: bold;
 }
-.parea{
-    background:white ;
-    text-align:center;
-    padding:48px 0;
+.faqarea{
+    text-align: center;
+    padding:35px 0;
 }
-.fullwidth{
-    width:100%;
-}
-.parea p{
-    text-align:justify;
-}
-.parea p:last-child{
-    text-align:right;
-}
-.carea{
-    padding:50px 0;
-    text-align:center;
-    background-image:url('library.jpg');
+.hr1{
+    background: rgb(5, 5, 5);
+    width:96%;
 }
 .box{
-    padding:20px 0;
-    margin:15px 0px;
-    background:rgb(255, 255, 255);
-    width:100%;
-    overflow:hidden;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
+    text-align: left;
 }
-.box img{
-    margin:20px 0px;
-    height:150px;
-    transition:all 2s;
-    border-radius:50%;
+.box1{
+    font-weight:bold;
+    color: #b75651;
+    border-bottom: solid 1px rgb(192, 187, 187);
+    padding: 5px 0;
 }
-.box:hover img{
-    transform:rotate(360deg);
+.box2{
+    padding:5px 0;
 }
-.carea p{
-    background:white;
-    padding:20px 0;
-    font-size:18px;
+.box:hover{
+    box-shadow: 0px 2px 10px  rgb(131, 129, 129);
 }
-.carea a:link,.carea a:visited{
-    color:#794027;
-    text-decoration:none;
-}
-.alumni{
-    background-image:url('https://www.technojobs.co.uk/info/sites/www.technojobs.co.uk/files/styles/article_image_large/public/graduation%201.1.png?itok=Ql873XV6');
-    padding:150px 0;
-    background-size:cover;
-    text-align:center;
-}
-.alumni img{
+.box2 a:link,.box2 a:visited{
+    color:#b75651;
+    text-decoration: underline;
 }
 .foot{
     background:#161616;
@@ -132,7 +112,7 @@ body{
     padding:5px 0;
 }
 #farea1{
-    padding:1px 0;
+    padding:0.5px 0;
     width:100%;
     background:linear-gradient(to left,transparent, white, transparent );
     margin:20px 0;
